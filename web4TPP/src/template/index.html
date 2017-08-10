@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="" style="width: 500px;height: 500px; position: fixed;right:0;bottom: 0px;border: 1px solid blue;">
+			<div class="">
+				姓名：<input type="text" id="xingMing"/><br />
+				内容：<input type="text" id="inp"/><br />
+				<button id="myBtn">发送给所有人</button><br />
+				<button id="myBtn2other">发送给其他人</button><br />
+				<button id="myBtn2one">发送给某个人</button>
+				<select name="" id="yonghu">
+					<option value=""></option>
+				</select>
+			</div>
+			<div class="" id="content" style="overflow-y: scroll;height: 450px;">
+				
+			</div>
+		</div>
+		
+		<script src="/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
